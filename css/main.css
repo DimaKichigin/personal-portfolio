@@ -446,6 +446,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d557b2",endCo
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 40px;
+	border-radius: 20px;
+
 }
 
 .inner__page-backlink {
@@ -459,7 +461,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d557b2",endCo
 	height: 80px;
 	padding: 30px;
 	margin: 0 auto;
+
+	font-weight: 600;
 	color: #000;
+	border-radius: 20px;
 
 	transition: all 0.2s ease-in;
 }
@@ -468,6 +473,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d557b2",endCo
 	background-color: #4e1f6c;
 	color: #fff;
 	opacity: 0.7;
+}
+
+.inner__page-photo-title {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 
