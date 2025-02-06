@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/media.css">
+	<link rel="icon" type="image/x-icon" href="./img/fav_icons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/fav_icons/apple-touch-icon.png">
+	<title>Dima Kichigin</title>
+</head>
+<body>
+
+	<header class="header">
+		<img class="header__background" src="./img/image.jpg" alt="Image">
+		<div class="container">
+			<div id="header" class="header__row">
+				<div class="scale">
+				<!-- <img class="header__image" src="./img/photo.jpg" srcset="./img/photo@2x.jpg 2x" alt="Computer"> -->
+					<img class="header__image" src="./img/IMG20241027162007.jpg" width="550" height="470" alt="Profile">
+				</div>
+				<div  class="header__description">
+					<h1 class="header__title">Дима Кичигин</h1>
+					<p class="header__text">Frontend-разработчик <br>JavaScript & React</p>
+					<div class="header__buttons">
+						<a class="button-portfolio" href="#portfolio">Портфолио</a>
+						<!-- <button class="button-portfolio" type="button">
+							Портфолио
+						</button> -->
+						<a class="button-contacts" href="#contacts"><span>Контакты</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <video class="header__video" autoplay muted loop>
+			<source type="video/mp4" src="./video/asteroidbelt2.mp4">
+		</video> -->
+	</header>
+
+	<main>
+		<section id="portfolio" class="portfolio">
+			<div class="container">
+				<h2 class="portfolio__title">Портфолио</h2>
+				<div class="portfolio__projects">
+					<article class="project">
+						<a href="./lofthouse.html" target="_blank">
+							<img class="project__img" src="./img/portfolio/project-03.jpg" srcset="./img/portfolio/project-03@2x.jpg 2x" alt="Сайт жилого комплекса">
+						</a>
+						<h3 class="project__title"><a href="dimakichigin.github.io/lofthouse/" target="_blank">Сайт жилого комплекса</a></h3>
+					</article>
+
+					<article class="project">
+						<a href="./shiro.html" target="_blank">
+							<img class="project__img" src="./img/portfolio/Shiro.jpg" alt="Shiro-legalloli" width="970px" height="450px">
+						</a>
+						<h3 class="project__title"><a href="https://shiro.legalloli.net/" target="_blank">Сайт Discord бота — Shiro-legalloli</a></h3>
+					</article>
+
+					<article class="project">
+						<a href="./socket.html" target="_blank">
+							<img class="project__img" src="./img/portfolio/Shiro.jpg" alt="Socket.io" width="970px" height="450px">
+						</a>
+						<h3 class="project__title"><a href="https://socket-chat-client.netlify.app/" target="_blank">Онлайн-чат на socket.io</a></h3>
+					</article>
+					
+					
+				</div>
+			</div>
+		</section>
+
+		<section id="contacts" class="contacts">
+			<div class="container">
+				<h2 class="contacts__title">Контакты</h2>
+				<div class="messangers">
+					<a href="https://t.me/d1mak1ch1g1n" class="messanger" target="_blank">
+						<img src="./img/icons/telegram.svg" alt="Написать в Telegram">
+						Написать в Telegram
+					</a>
+					<a href="mailto:dimakichigin94@gmail.com" class="messanger" target="_blank">
+						<img src="./img/icons/gmail_icon_(2020).svg" width="48" height="48" alt="Почта Gmail">
+						Почта Gmail
+					</a>
+					<a href="https://vk.com/id83828580" class="messanger" target="_blank">
+						<img src="./img/icons/vk.svg" alt="Связаться Вконтакте">
+						Связаться Вконтакте
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer">
+		<div class="contaner">
+			<div  class="footer__inner">
+				<a href="#header">© Dima Kichigin<br>Frontend-разработка, JavaScript, React, веб-разработка, дизайн
+				</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
